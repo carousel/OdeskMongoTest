@@ -62,7 +62,6 @@
         </div>
       </div>
       <div class="content">
-          @if(count($networks) > 0)
             @foreach($networks as $network )
                 <ul>
                     <li>Id:{{$network->_id}}</li>
@@ -87,10 +86,12 @@
 
                     <span class="main-name">Hostnames</span>
                     <div class="hostnames">
-                        <li>Name:{{$network->hostnames[0]["hostname"]}}</li>
-                        <li>Name:{{$network->hostnames[0]["block"]}}</li>
-                        <li>Name:{{$network->hostnames[1]["hostname"]}}</li>
-                        <li>Name:{{$network->hostnames[1]["block"]}}</li>
+                        <li>Name:{{$network->hostnames[0]["hostname1"]}}</li>
+                        <li>Name:{{$network->hostnames[0]["block1"]}}</li>
+                        <li>Name:{{$network->hostnames[1]["hostname2"]}}</li>
+                        <li>Name:{{$network->hostnames[1]["block2"]}}</li>
+                        <li>Name:{{$network->hostnames[2]["hostname3"]}}</li>
+                        <li>Name:{{$network->hostnames[2]["block3"]}}</li>
                     </div>
                 </ul>
                 <span class="btn-group">
@@ -102,8 +103,6 @@
                 </span>
 
             @endforeach
-            {{"<h2>Sorry, Db is empty</h2>"}};
-            @endif
       
       </div>
     </body>

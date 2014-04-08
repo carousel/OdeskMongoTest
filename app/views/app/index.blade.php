@@ -102,9 +102,7 @@
                         {{HTML::link("/edit-form","edit",["class"=>"btn btn-success"])}}
                     {{Form::close()}}
                 </span>
-
-            @endforeach
-      
+            @endforeach      
       </div>
     </body>
 </html>

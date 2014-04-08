@@ -89,6 +89,7 @@
                         <li>Name:{{$network->hostnames[0]["hostname1"]}}</li>
                         <li>Name:{{$network->hostnames[0]["block1"]}}</li>
                         <li>Name:{{$network->hostnames[1]["hostname2"]}}</li>
+                        </br>
                         <li>Name:{{$network->hostnames[1]["block2"]}}</li>
                         <li>Name:{{$network->hostnames[2]["hostname3"]}}</li>
                         <li>Name:{{$network->hostnames[2]["block3"]}}</li>
